@@ -1,14 +1,19 @@
 {
-  "name": "login2",
+  "name": "loginregreactjsmui1",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.3.0",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.3.1",
+    "@mui/material": "^5.3.1",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react": "*",
+    "react-dom": "*",
+    "react-router-dom": "*",
+    "react-scripts": "5.0.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +39,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5"
   }
 }
